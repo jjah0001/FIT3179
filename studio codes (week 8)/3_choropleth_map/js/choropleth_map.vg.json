@@ -5,7 +5,7 @@
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "data/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "data/covid_10_10_2020.csv"
+          "url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/3_choropleth_map/data/covid_10_10_2020.csv"
         },
         "key": "Country",
         "fields": ["Active"]
@@ -26,10 +26,7 @@
     "color": {
       "field": "Active Cases",
       "type": "quantitative",
-      "scale": {"type": "threshold", 
-      "domain": [10000, 100000, 500000],
-      "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-    }
+      "scale": {"type": "log"}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
