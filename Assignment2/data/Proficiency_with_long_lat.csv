@@ -70,14 +70,14 @@ Mozambique,482,Low Proficiency,No,-18.665695,35.529562
 United Arab Emirates,480,Low Proficiency,No,23.424076,53.847818
 Turkey,478,Low Proficiency,No,38.963745,35.243322
 Morocco,477,Low Proficiency,No,31.791702,-7.09262
-Bahrain,476,Low Proficiency,No,25.930414,50.637772
+Bahrain,476,Low Proficiency,Yes,25.930414,50.637772
 Panama,475,Low Proficiency,No,8.537981,-80.782127
 Venezuela,475,Low Proficiency,No,6.42375,-66.58973
 Algeria,474,Low Proficiency,No,28.033886,1.659626
 Nicaragua,470,Low Proficiency,No,12.865416,-85.207229
 Madagascar,469,Low Proficiency,No,-18.766947,46.869107
 Japan,468,Low Proficiency,No,36.204824,138.252924
-Qatar,467,Low Proficiency,No,25.354826,51.183884
+Qatar,467,Low Proficiency,Yes,25.354826,51.183884
 Indonesia,466,Low Proficiency,No,-0.789275,113.921327
 Colombia,465,Low Proficiency,No,4.570868,-74.297333
 Sri Lanka,464,Low Proficiency,Yes,7.873054,80.771797
@@ -100,7 +100,7 @@ Sudan,421,Very Low Proficiency,Yes,12.862807,30.217636
 Ivory Coast,420,Very  Low Proficiency,No,7.539989,-5.54708
 Thailand,419,Very Low Proficiency,No,15.870032,100.992541
 Kyrgyzstan,418,Very Low Proficiency,No,41.20438,74.766098
-Oman,417,Very Low Proficiency,No,21.512583,55.923255
+Oman,417,Very Low Proficiency,Yes,21.512583,55.923255
 Tajikistan,405,Very Low Proficiency,No,38.861034,71.276093
 Saudi Arabia,404,Very Low Proficiency,No,23.885942,45.079162
 Haiti,403,Very Low Proficiency,No,18.971187,-72.285215
