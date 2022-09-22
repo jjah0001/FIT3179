@@ -5,13 +5,19 @@
   "title": "English Proficiency of Participating Countries (English First, 2022)",
   "projection": {"type": "equalEarth"},
   "layer": [
-
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
-        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        "url": "https://raw.githubusercontent.com/jjah0001/FIT3179/main/Assignment2/data/ne_50m.json",
+        "format": {"type": "topojson", "feature": "ne_50m_ocean"}
       },
-      "mark": {"type": "geoshape", "fill": "#ffbc47", "stroke": "darkgrey"}
+      "mark": {"type": "geoshape", "fill": "aliceblue"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/jjah0001/FIT3179/main/Assignment2/data/ne_50m.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "#f7f1bd", "stroke": "darkgrey"}
     },
     {
       "data": {
